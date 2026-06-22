@@ -218,7 +218,7 @@ em{font-style:italic;color:#F47B20}
   }
 
   .hero-copy{
-    text-align:left;
+    text-align:center;
   }
 
   .hero-copy h1{
@@ -240,6 +240,12 @@ em{font-style:italic;color:#F47B20}
   .cta-row .link-underline{
     width:100%;
     justify-content:center;
+  }
+  .reveal{
+    text-align: center;
+  }
+  .logo-img{
+margin-left: 20px;
   }
 }
 
