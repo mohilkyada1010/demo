@@ -250,6 +250,11 @@ em{font-style:italic;color:#F47B20}
 .section.dark em{color:#FF9A3C}
 .section-head{max-width:780px;margin-bottom:50px}
 
+@media (min-width:769px){
+  #stack .section-head h2{
+    white-space: nowrap;
+  }
+}
 @media (max-width:768px){
   .section{
     padding:56px 0;
