@@ -300,7 +300,7 @@ em{font-style:italic;color:#F47B20}
 .dream{background:linear-gradient(135deg,#0E1116 0%,#1A1F27 100%);color:#fff;overflow:hidden}
 .dream .body-lg{color:#B9C0CB}
 .dream-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:60px;align-items:center}
-.city{position:relative;height:340px;display:flex;align-items:flex-end;justify-content:center;gap:8px}
+.city{position:relative;height:204px;display:flex;align-items:flex-end;justify-content:center;gap:8px}
 .lit-building{
   position:relative;width:90px;height:280px;background:#1A1F27;
   border:1px solid #2A323D;border-radius:6px 6px 0 0;
@@ -453,7 +453,7 @@ em{font-style:italic;color:#F47B20}
   }
 
   .eyebrow{
-    font-size: 0.8rem;
+    font-size: 0.65rem;
     letter-spacing: 0.12em;
   }
 
@@ -497,6 +497,8 @@ em{font-style:italic;color:#F47B20}
 
 /* Final CTA */
 .section.final-cta{
+     padding-top: 0px;
+
   margin-bottom:29px;
 }
 
@@ -752,7 +754,7 @@ em{font-style:italic;color:#F47B20}
 
 @media (max-width:760px){
   .section.final-cta{
-    padding:64px 16px;
+    padding:0px 16px;
     margin-bottom:0;
   }
 
